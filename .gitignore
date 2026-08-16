@@ -1,0 +1,71 @@
+# === Jupyter Notebook / Google Colab / Kaggle ===
+.ipynb_checkpoints/
+.virtual_documents/
+*~
+.aml/
+.azureml/
+
+# === Kaggle API Credentials ===
+kaggle.json
+.kaggle/
+.config/kaggle/
+
+# === Large Datasets & Archives ===
+data/
+datasets/
+*.zip
+*.tar.gz
+*.tgz
+*.gz
+*.rar
+*.7z
+*.csv
+*.tsv
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.parquet
+*.pkl
+*.pickle
+
+# === Deep Learning Models & Weights ===
+models/
+weights/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.pb
+*.onnx
+*.pkl
+*.h5
+saved_model/
+
+# === Hardware / Driver Outputs ===
+.nv/
+nsight/
+
+# === Logs & Experiment Tracking ===
+logs/
+tb_logs/
+lightning_logs/
+wandb/
+mlruns/
+*.log
+
+# === Python Virtual Environments & Packages ===
+.venv/
+venv/
+env/
+ENV/
+pyvenv.cfg
+.pytest_cache/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# === System Files ===
+.DS_Store
+Thumbs.db
